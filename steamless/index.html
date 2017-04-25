@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>steamless – игры дешевле</title>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<nav>
+				<ul>
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Сразу к сути</a></li>
+					<li><a href="#">Тарифы</a></li>
+					<li><a href="#">Оформить заказ</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="hellno">
+				<div class="content">
+					<h1>steam<span>less</span></h1>
+					<p> Еще дешевле</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="bigsmoke">
+			<div class="step1">
+				<div class="container">
+					<h1> Сразу к сути</h1>
+					<p> <img src="img/steam.svg" height="100px"> Я предлагаю вам купить абсолютно любой продукт, продающийся на самой большой площадке цифровой дистибуции steam, со скидкой до 25%.
+					</p>
+					<p> <img src="img/discount.svg" height="100px"> Мне не важно, есть ли у вас купон на скидку, либо же на продукт в данный момент действует скидка в 90%: скидка, расчитаная по приведенному ниже тарифу, будет действовать на итоговую сумму в корзине сервиса steam. </p>
+					<p> <img src="img/gift.svg" height="100px">Игра будет предоставлена в виде steam-gift’a. Это значит, что вы можете оставить ее у себя в инвентаре, передарить своему другу, либо же активировать в тот м омент, когда вам это будет удобно. </p>
+					<p> <img src="img/protection.svg" height="100px"> На любую покупку, оформленную через меня так же действует гарантия покупателя steam. Это значи, что вы можете вернуть свю покупку в течении 14 дней со дня ее покупки мной, по любой причине и если она не использовалась больше 2 часов. </p>
+				</div>
+			</div>
+			
+			<div class="step2">
+				<div class="container">
+					<h1> Тарифы </h1>
+					<div class="col-left">
+						<table class="simple-little-table" cellspacing='0'> 
+							<tr> 
+								<th> Скидка </th> 
+								<th> Размер </th> 
+							</tr>
+							<tr> 
+								<td>Основная скидка</td> 
+								<td>10%</td> 
+							</tr>
+							<tr> 
+								<td>За первую покупку на нашем сайте</td> 
+								<td>+2%</td> 
+							</tr>
+							<tr> 
+								<td>За каждые 500 рублей при покупке</td> 
+								<td>+1%</td> 
+							</tr>
+							<tr > 
+								<td colspan="2" class='even' id='loyaltysumcol'>В зависимости от суммы ранее совершенных покупок:</td> 
+							</tr> 
+							<tr> 
+								<td>500 руб.</td> 
+								<td>+1%</td> 
+							</tr> 
+							<tr class='even'> 
+								<td>1500 руб.</td> 
+								<td>+2%</td> 
+							</tr> 
+							<tr> 
+								<td> 3500 руб.</td> 
+								<td>+3%</td> 
+							</td> 
+						</tr> 
+						<tr class='even'> 
+							<td>7000 руб.</td> 
+							<td>+3%</td> 
+						</tr> 
+						<tr> 
+							<td>10000 руб.</td> 
+							<td>+5%</td> 
+						</tr> 
+						<tr class='even'> 
+							<td>15000 руб. и более</td> 
+							<td>не думаю</td> 
+						</tr> 
+					</table> 
+				</div>
+				<div class="col-right">
+
+
+				<!-- Ебанiй калькулятор -->
+
+
+					<div class="calc">
+						<div class="calc-head">
+							<h2>Посчитай свою выгоду</h2>
+						</div>
+						<div class="calc-body">
+							<form name="calc" method="post" action="#">
+								<label>
+									<div class="col-l"> 
+										Я покупаю тут впервые
+									</div>
+									<div class="col-r">
+										<input type="checkbox" name="">
+									</div>
+								</label>
+								<label class="already_bought">
+									<div class="col-l"> 
+										Я уже купил здесь товаров на сумму:
+									</div> 
+									<div class="col-r">
+										<input type="text" name="">
+									</div>
+								</label>
+								<label name="promocode"> 
+									<div class="col-l"> 
+										У меня есть промокод:
+									</div>  
+									<div class="col-r">
+										<input type="text" name="">
+									</div>  
+								</label>
+								<div class="oreder-detail">
+									<p> Я собираюсь купить: </p>
+									<div class="col1"> <label> Название <br> <input type="text" name=""> </label></div>
+									<div class="col2"> <label> Цена <br> <input type="text" name=""></label></div>
+									<div class="col3"><label for=""> Кол-во <br> <input type="text"></label></div>
+									<button> + </button>
+								</div>
+								<div class="calculating">
+									<label> 
+										<div class="col1"> 
+											Итого: 
+										</div>  
+										<div class="col2">
+											<input type="text" name="sum-price" readonly>
+										</div>
+
+<!-- 									<div class="col3">
+											<input type="text" name="sum-quantity" readonly>
+										</div> 
+-->
+
+									</label> 
+									<label>
+										<div class="col1"> 
+											С учетом экономии: 
+										</div>
+										<div class="col2">  
+											<input type="text" name="sum-weconom" readonly>
+										</div>
+									</label> 
+									<label>
+										<div class="col1">
+											  Вы сэкономите:
+										</div>
+										<div class="col2">
+										  <input type="text" name="sum-econom" readonly>
+										</div>
+									</label> 
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--  calc over -->
+
+				</div>
+			</div>
+			<!-- Step 2 over -->
+				</div>
+
+				<div class="step3"> 
+					<div class="container">
+						<h1> Оформить заказ </h1>
+						<div class="order_form">
+						<div id="form_66689_1"></div>
+									<script type="text/javascript">
+									(function (d, w, c) {
+									    (w[c] = w[c] || []).push({formId:66689,host:"formdesigner.ru",formHeight:100, el: "form_66689_1", center: 0});
+									    var s = d.createElement("script"), g = "getElementsByTagName";
+										s.type = "text/javascript"; s.charset="UTF-8"; s.async = false;
+										s.src = (d.location.protocol == "https:" ? "https:" : "http:")+"//formdesigner.ru/js/iform.js";
+										var h=d[g]("head")[0] || d[g]("body")[0];
+										h.appendChild(s);
+									})(document, window, "fdforms");
+									</script>
+									</div>
+							</div>
+					</div>
+				</div>
+
+		<div class="step4">
+
+		</div>
+	</main>
+</div>
+</body>
+</html>
