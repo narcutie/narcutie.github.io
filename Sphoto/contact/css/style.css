@@ -1,0 +1,157 @@
+html, body { background:url(../img/fon.jpg) no-repeat left center rgba(0,0,0,0.1);
+
+    background-repeat: none;
+    background-size: cover;
+    background-position: 100% 100%;
+    
+    
+	}
+
+		
+body {
+	
+	
+	padding: 0;
+	background-color: #252525;
+
+	}
+.txt
+{
+	font-family: "Palatino Linotype", Baskerville, serif;
+font-size: 1.25em;
+color: #616161;
+line-height: 150%;
+
+	
+}
+
+
+.container {
+
+	padding-left:0px;
+
+	
+	width: 920px;
+	margin:0 auto;
+	
+	
+	}
+
+.logo {
+	padding-top: 5px;
+	display: block;
+	float: left;
+}
+.menu
+	{
+		
+	display: inline-block;
+	vertical-align:top;
+	}
+.menu ul {margin: 0; margin-bottom:0;}
+.logo a {
+
+	
+}
+header {
+	
+	background-color: rgba(121,121,121,0.25);
+}
+
+
+.line {
+	margin-left: 40px;
+	padding: 0;
+	height: 80px;
+	background-color: #282828;
+	opacity: 0.8;
+}
+
+header ul {
+	list-style: none;
+}
+
+header ul li {
+	margin-right: 5px;
+}
+header ul a {
+text-decoration: none;
+display: inline-block;
+color: white;
+font-family: 'Alice', sans-serif;
+font-size: 20px;
+padding: 5px;
+}
+
+header ul a:hover {
+	color: #91d121;
+	transition:all 0.5s ease;
+}
+
+.active {
+	color: #91d121;
+}
+
+header li { 
+display: inline-block; }
+
+nav {
+	float: right;
+	margin-top: 8px;
+	margin-right: 5px;
+}
+
+.clearfix{
+    clear:both;
+    display:table;
+}
+
+footer {
+	height: 50px;
+	width: 100%;
+	background-color: #282828;
+	position: absolute;
+	bottom: 0;
+}
+.text{
+	  max-width: 1170px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contact{
+
+	max-width: 200px;
+	width: 50%;
+	padding: 20px;
+	margin: 0 auto;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+	background-color: #E1EDEB;
+
+}
+
+
+.icon-cet {
+	display: block;
+	position: relative;
+	width: 980px;
+	height: 32px;
+	margin: 0 auto;
+	margin-top: 1px;
+	padding-left: 1px;
+}
+
+
+::selection{
+	color: #FFFFFF;	
+	background-color: #993366;
+}
+
+
+
+
+

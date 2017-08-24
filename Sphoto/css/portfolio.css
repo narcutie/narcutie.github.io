@@ -1,0 +1,78 @@
+.main {
+  padding-top: 50px;
+  color: white;
+  display: block;
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+}
+
+.main h2 {
+  font-size: 30px; /*Размер шрифта заголовков к фото*/
+  text-align: center;
+}
+
+.sections {
+  width: 250px; 
+  /*тут можно изменить центровку заголовков к фото*/
+}
+
+.section {
+  width: 300px;
+  height: 100px;
+  margin: 10px;
+  display: inline-block;
+  position: relative;
+}
+
+.section img {
+  position: absolute;
+  left: 50px;
+  /*тут можно изменить размер картинок*/
+  width: 115px; /*ширину*/
+  height: 85px; /*высоту*/
+  border: 7px solid white; /*и рамки*/
+
+}
+
+
+.section img:nth-child(1) {
+  z-index: 103; /*Приоритет фото*/
+}
+
+.section img:nth-child(2) {
+  transform: rotate(-17deg); /*Его поворот*/
+  top: 8px;
+  left: 20px;
+  z-index: 102;
+}
+
+.section img:nth-child(3) {
+  transform: rotate(17deg);
+  left: 89px;
+  top: 12px;
+  z-index: 103;
+}
+
+.slider {
+  width: 650px;
+  height: 550px;
+  display: inline-block;
+}
+
+.sliders { 
+display: inline-block;
+position: absolute;
+top: 105px;
+right: 15px;
+background: url(../img/exa.png) no-repeat;
+background-size: 100%;}
+
+footer {
+  display: block;
+  position: absolute;
+}
+
+footer .icon-cet {
+  position: relative;
+}

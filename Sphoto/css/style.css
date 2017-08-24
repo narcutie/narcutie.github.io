@@ -1,0 +1,148 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #252525;
+}
+
+.container {
+	display: block;
+	position: relative;
+	width: 980px;
+	height: 75px;
+	margin: 0 auto;
+}
+
+.logo {
+	display: inline-block;
+	float: left;
+}
+
+.logo a {
+	width: 0px;
+	height: 0px;
+	position: absolute;
+}
+header {
+	height: 75px;
+}
+
+.line {
+	margin-left: -40px;
+	padding: 0;
+	height: 80px;
+	background-color: #282828;
+	opacity: 0.8;
+}
+
+header ul {
+	list-style: none;
+}
+
+header ul li {
+	margin-right: 45px;
+}
+header ul a {
+text-decoration: none;
+display: inline-block;
+color: white;
+font-family: 'Alice', sans-serif;
+font-size: 20px;
+padding: 5px;
+}
+
+header ul a:hover {
+	color: #91d121;
+	transition:all 0.5s ease;
+}
+
+.active {
+	color: #91d121;
+}
+
+header li { 
+display: inline-block; }
+
+nav {
+	float: right;
+	margin-top: 8px;
+	margin-right: 5px;
+}
+
+footer {
+	height: 50px;
+	width: 100%;
+	background-color: #282828;
+	position: absolute;
+	bottom: 0;
+}
+
+.icon-cet {
+	display: block;
+	position: relative;
+	width: 980px;
+	height: 32px;
+	margin: 0 auto;
+	margin-top: 12px;
+	padding-left: 30px;
+}
+
+.ivk:hover {
+	display: inline-block;
+	background: url(../img/icons_set_active.png) no-repeat;
+	width: 55px;
+	height: 30px;
+	transition:all 0.7s ease;
+}
+
+.itg:hover {
+	display: inline-block;
+	background: url(../img/icons_set_active.png) no-repeat -45px 0;
+	width: 55px;
+	height: 30px;
+	transition:all 0.7s ease;
+}
+
+.iml:hover {
+	display: inline-block;
+	background: url(../img/icons_set_active.png) no-repeat -95px 0;
+	width: 55px;
+	height: 30px;
+	transition:all 0.7s ease;
+}
+
+.iok:hover {
+	display: inline-block;
+	background: url(../img/icons_set_active.png) no-repeat -150px 0;
+	width: 55px;
+	height: 30px;
+	transition:all 0.7s ease;
+}
+
+.ivk {
+	display: inline-block;
+	background: url(../img/icons_set.png) no-repeat;
+	width: 55px;
+	height: 30px;
+}
+
+.itg {
+	display: inline-block;
+	background: url(../img/icons_set.png) no-repeat -45px 0;
+	width: 55px;
+	height: 30px;
+}
+
+.iml {
+	display: inline-block;
+	background: url(../img/icons_set.png) no-repeat -95px 0;
+	width: 55px;
+	height: 30px;
+}
+
+.iok {
+	display: inline-block;
+	background: url(../img/icons_set.png) no-repeat -150px 0;
+	width: 55px;
+	height: 30px;
+}
